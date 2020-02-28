@@ -1,0 +1,5 @@
+Id 	Peso	Semana
+Raton_1	20	1
+Raton_2	32	2
+Raton_3	18	1
+Raton_4	45	3
