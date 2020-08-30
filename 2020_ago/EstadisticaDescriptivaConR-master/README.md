@@ -42,5 +42,5 @@ install.packages(c("ggplot2", "pastecs", "psych", "tidyverse", "corrplot", "corr
 Nota: En Mac OS el paquete summarytools requerirá a Xcode para poder instalarse. Puedes descargar el instalador de Xcode en https://www.xquartz.org/.
 
 ## Licencias
-Los scripts de este repositorio pueden er utilizados y distribuídos de forma libre bajo la licencia GPL3 (ver archivo GPL3_licence.md en este mismo repositorio). El resto de los materiales de este repositorio pueden ser utilizados de forma libre como material educativo bajo la licencia Creative Commons 1.0 (ver archivo CC0_1.0_licence.md de este mismo repositorio.
+Los scripts de este repositorio pueden ser utilizados y distribuídos de forma libre bajo la licencia GPL3 (ver archivo GPL3_licence.md en este mismo repositorio). El resto de los materiales de este repositorio pueden ser utilizados de forma libre como material educativo bajo la licencia Creative Commons 1.0 (ver archivo CC0_1.0_licence.md de este mismo repositorio.
 
