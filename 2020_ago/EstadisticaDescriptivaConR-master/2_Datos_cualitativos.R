@@ -78,7 +78,6 @@ table(survey$Clap, survey$W.Hnd, survey$Sex)
 
 #  B.1 Podemos representar la tabla de contingencias como grafica de mosaico
 
-mosaicplot(clap_hand)
 
 mosaicplot(t(clap_hand), # Tabla de contingencias a graficar
            main= "Mano dominante y aplauso",
@@ -125,7 +124,6 @@ Smoke_l<-c("Never","Occas","Regul","Heavy")
 
 survey$Smoke<-factor(survey$Smoke, ordered = TRUE, levels= Smoke_l)
 
-table(survey$Smoke)
 
 #  C.3 Generemos tablas de frecuencias y de frecuencias acumuladas
 
@@ -151,7 +149,7 @@ ggplot(tot_acu, aes(x=Smoke)) +
   geom_point(aes(y=acu)) +
   geom_line(aes(y=acu), group=1)
 
-# Obtenemos lo que se llama grafica de Pareto
+
 
 ######### EJERCICIOS Y TRUCOS ADICIONALES ###################################
 

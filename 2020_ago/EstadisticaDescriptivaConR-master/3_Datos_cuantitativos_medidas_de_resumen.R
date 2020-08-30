@@ -102,7 +102,7 @@ median(iris$Sepal.Length)
 
 
 IQR(iris$Sepal.Length)
-quantile(iris$Sepal.Length) # resta del 3er - 1er cuartil
+
 
 ## B.4 Desviacion estandar
 # Cuantifica la variacion o dispersion que tienen los datos con respecto al promedio
@@ -118,7 +118,6 @@ sd(iris$Sepal.Length)
 
 sd(iris$Sepal.Length)/mean(iris$Sepal.Length)
 
-## un valor > 0.8 se considera no representativo de los datos
 
 # B.6 Podemos aplicar estas estadisticas a todas las columnas a la vez
 
